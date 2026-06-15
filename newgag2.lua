@@ -78,7 +78,7 @@ dupeCorner.CornerRadius = UDim.new(0, 12)
 dupeCorner.Parent = dupe
 
 dupe.MouseButton1Click:Connect(function()
-	ShowMessage("Pet replicated! (Visual Only)")
+	ShowMessage("CHECK INVENTORY!)")
 end)
 
 -- More Button
