@@ -37,7 +37,7 @@ gradient.Parent = title
 local visualButton = Instance.new("TextButton")
 visualButton.Size = UDim2.new(0, 180, 0, 45)
 visualButton.Position = UDim2.new(0.5, -90, 0, 70)
-visualButton.Text = "VISUAL CLONE"
+visualButton.Text = "DUPE PET"
 visualButton.Parent = frame
 
 Instance.new("UICorner", visualButton)
@@ -71,7 +71,7 @@ moreTitle.Parent = moreFrame
 local effectsButton = Instance.new("TextButton")
 effectsButton.Size = UDim2.new(0, 180, 0, 45)
 effectsButton.Position = UDim2.new(0.5, -90, 0, 60)
-effectsButton.Text = "VISUAL EFFECTS"
+effectsButton.Text = "BYPASS"
 effectsButton.Parent = moreFrame
 
 Instance.new("UICorner", effectsButton)
@@ -93,5 +93,5 @@ closeButton.MouseButton1Click:Connect(function()
 end)
 
 visualButton.MouseButton1Click:Connect(function()
-    print("Visual effect only.")
+    print("DUPE PET")
 end)
